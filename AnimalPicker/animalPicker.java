@@ -9,8 +9,8 @@ public class animalPicker {
         String introMsg = "Howdy. Would you like to see a canine or a feline?\nType \"canine\" or \"feline\":";
         String modernLingo = "We don't call them that in these parts\nType \"canine\" or \"feline\":";
         String invalidInput = "That ain't no canine or feline\nType \"canine\" or \"feline\":";
-        String canine = "Imagine a canine chasing it's tail or something";
-        String feline = "Look up a picture of a feline on the interwebs";
+        String canine = "        __      _\n        \\.\'---.//|\n         |\\./|  \\/\n        _|.|.|_  \\\n       /(  ) \' \'  \\\n      |  \\/   . |  \\\n       \\_/\\__/| |\n        V  /V / |\n          /__/ /\n          \\___/\\";
+        String feline = " ,_     _\n |\\\\_,-~/\n / _  _ |    ,--.\n(  @  @ )   / ,-\'\n \\  _T_/-._( (\n /         `. \\\n|         _  \\ |\n \\ \\ ,  /      |\n  || |-_\\__   /\n ((_/`(____,-\'";
 
         // asks user what animal they would like to see
         System.out.println(introMsg);
