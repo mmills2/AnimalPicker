@@ -12,6 +12,8 @@ public class animalPicker {
         
         // user input
         choice = scanoTron9000.nextLine();
+        if(choice.equalsIgnoreCase("dog") || choice.equalsIgnoreCase("cat")){System.out.println("We don't call them that in these parts");}
+        else if(!choice.equalsIgnoreCase("canine") && !choice.equalsIgnoreCase("feline")){System.out.println("That ain't no canine or feline");}
 
         // placeholder output
         if(choice.equalsIgnoreCase("canine")){System.out.println("Imagine a canine chasing it's tail or something");}
